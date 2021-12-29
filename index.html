@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/fav.ico" type="image/x-icon">
+    <title>News</title>
+</head>
+
+<body class="a-font">
+    <!-- -----------------Header-------------------------------- -->
+    <header id="header" class="headnav">
+        <nav class="a-flex">
+            <div class="nav-wrapper a-flex">
+                <div id="logo" class="a-flex">
+                    <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+                </div>
+                <ul id="main-nav" class="menu link-btn a-flex">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li class="login"><a href="#">Login</a></li>
+                    <li><button id="myBtn" class="a-btn a-font">Añadir Post</button></li>
+                </ul>
+                <nav id="menu-resposive">
+                    <input class="input-burger" type="checkbox" id="menu">
+                    <label class="burger" for="menu"> ☰ </label>
+                    <ul class="drop link-btn">
+                        <li class="burger-item"><a href="index.html">Inicio</a></li>
+                        <li class="burger-item"><a href="#">Link 1</a></li>
+                        <li class="burger-item"><a href="#">Link 2</a></li>
+                        <li class="burger-item"><a href="#">Link 3</a></li>
+                        <li class="burger-item"><button id="myBtn2" class="a-btn a-font">Añadir Post</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <!-- -----------------SubHeader-------------------------------- -->
+    <section>
+        <div class="nav-news space">
+            <div class="containter-nav">
+                <ul class="menu-news no-margin link-btn a-flex">
+                    <li><a class="active" href="#">Últimos</a></li>
+                    <li><a href="#">Populares</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                <div class="search link-btn">
+                    <input type="search" placeholder="Buscar">
+                    <a><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------Main Post-------------------------------- -->
+    <div class="page-intro container-row">
+        <div class="a-rows a-flex">
+            <div class="a-row2 img-post">
+                <div class="link-post">
+                    <img class="a-picture" src="assets/close-up-on-people-preparing-the-christmas-dinner(1).jpg" alt="">
+                </div>
+                <div class="hover-options">
+                    <div class="options a-flex link-btn">
+                        <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="a-row2">
+                <article class="main-article">
+                    <p class="date no-margin">Aliquam sapien</p>
+                    <h3 class="heading no-margin">Magna feugiat pulvinar At dapibus ac velit cum sociis natoque</h3>
+                    <footer class="btn link-btn space"><a href="#">Leer Artículo</a></footer>
+                </article>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------Grid Posts-------------------------------- -->
+    <div class="container-row">
+        <h3 class="heading center">Tendencias</h3>
+        <div id="articles-gen" class="a-rows a-flex">
+            <!-- Posts Here -->
+        </div>
+    </div>
+    <!-- -----------------Advertise-------------------------------- -->
+    <div class="advertise container-row2">
+        <div class="card a-flex ">
+            <h3>Publicidad</h3>
+        </div>
+    </div>
+    <!-- -----------------Random Gallery-------------------------------- -->
+    <div class="gallery container-row">
+        <div class="a-rows a-flex">
+            <div class="a-row3 gallery-card">
+                <img class="gallery-pic" src="https://via.placeholder.com/600/56a8c2" alt="">
+            </div>
+            <div class="a-row3 gallery-card">
+                <img class="gallery-pic" src="https://via.placeholder.com/600/56a8c2" alt="">
+            </div>
+            <div class="a-row3 gallery-card">
+                <img class="gallery-pic" src="https://via.placeholder.com/600/56a8c2" alt="">
+            </div>
+            <div class="a-row3 gallery-card">
+                <img class="gallery-pic" src="https://via.placeholder.com/600/56a8c2" alt="">
+            </div>
+            <div class="a-row3 gallery-card">
+                <img class="gallery-pic space" src="https://via.placeholder.com/600/56a8c2" alt="">
+            </div>
+            <div class="a-row3 gallery-card">
+                <img class="gallery-pic space" src="https://via.placeholder.com/600/56a8c2" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- -----------------Footer-------------------------------- -->
+    <div id="footer" class="a-flex">
+        <h2 class="a-text">News</h2>
+    </div>
+    <!-- ---------------Modal---------------------------------- -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 class="heading">Nuevo Post</h3>
+            <div class="form">
+                <div class="form-group">
+                    <label for="">Titulo</label>
+                    <input type="text" id="inpTitle">
+                </div>
+                <div class="form-group">
+                    <label for="">Reseña</label>
+                    <textarea id="inpBody" cols="30" rows="10"></textarea>
+                </div>
+                <button class="a-btn a-font" onclick="newPost()">Añadir Post</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

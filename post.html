@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/fav.ico" type="image/x-icon">
+    <title>Post</title>
+</head>
+
+<body class="a-font">
+    <!-- -----------------Header-------------------------------- -->
+    <header id="header" class="headnav">
+        <nav class="a-flex">
+            <div class="nav-wrapper a-flex">
+                <div id="logo" class="a-flex">
+                    <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+                </div>
+                <ul id="main-nav" class="menu link-btn a-flex">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li class="login"><a href="#">Login</a></li>
+                    <li><button id="myBtn" class="a-btn a-font disable" disabled='disabled'>Añadir Post</button></li>
+                </ul>
+                <nav id="menu-resposive">
+                    <input class="input-burger" type="checkbox" id="menu">
+                    <label class="burger" for="menu"> ☰ </label>
+                    <ul class="drop link-btn">
+                        <li class="burger-item"><a href="index.html">Inicio</a></li>
+                        <li class="burger-item"><a href="#">Link 1</a></li>
+                        <li class="burger-item"><a href="#">Link 2</a></li>
+                        <li class="burger-item"><a href="#">Link 3</a></li>
+                        <li class="burger-item"><button id="myBtn2" class="a-btn a-font disable" disabled='disabled'>Añadir Post</button></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <!-- -----------------SubHeader-------------------------------- -->
+    <section>
+        <div class="nav-news space">
+            <div class="containter-nav">
+                <ul class="menu-news no-margin link-btn a-flex">
+                    <li><a class="active" href="#">Últimos</a></li>
+                    <li><a href="#">Populares</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+                <div class="search link-btn">
+                    <input type="search" placeholder="Buscar">
+                    <a><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------Post-------------------------------- -->
+    <section>
+        <div class="header-post a-flex">
+            <div class="container-row ">
+                <p id="datePost" class="date no-margin">Aliquam sapien</p>
+                <h3 id="heading1" class="heading">Magna feugiat pulvinar At dapibus ac velit cum sociis natoque</h3>
+                <div class="img-banner">
+                    <img src="assets/close-up-on-people-preparing-the-christmas-dinner(1).jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container-post">
+            <div class="post-content">
+                <h3 id="heading2" class="heading">Magna feugiat pulvinar At dapibus ac velit cum sociis natoque</h3>
+                <p id="post-body"></p>
+                <!-- <p> <b>Lorem ipsum dolor sit amet </b>- consectetur adipiscing elit. Nulla ac mauris vitae neque luctus lobortis. Sed quis risus mollis, varius dolor ut, condimentum sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                    cubilia curae; Nunc vitae tempor erat. Pellentesque eget ex egestas, malesuada libero non, egestas ante. Curabitur efficitur tempor odio ac auctor. Etiam maximus id ligula non convallis. </p>
+                <p><b>Aliquam nulla velit, vestibulum in eleifend vitae</b>- tincidunt a nisi. Quisque quam sem, sollicitudin vitae nisl et, elementum convallis nulla. Integer at efficitur erat. Etiam ac mollis magna, ac faucibus est. Fusce lobortis urna
+                    elit, ut elementum velit porta vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas fermentum tincidunt magna, sollicitudin ornare lorem fermentum congue.</p>
+                <p>Vivamus eget urna in neque condimentum semper in eget ex. Donec vehicula venenatis mi, nec accumsan est laoreet at. Duis gravida bibendum odio, nec luctus leo mollis vel. Proin egestas a justo non finibus. Phasellus faucibus dolor ut sapien
+                    suscipit tristique. Suspendisse in viverra sapien. Donec id laoreet sapien. Suspendisse potenti. Aenean nec nunc velit. Mauris quis aliquet dolor. Morbi sit amet quam congue neque sagittis tristique. Nulla facilisi. Sed ornare nisi
+                    id turpis dapibus ornare. Aenean non erat fringilla, placerat orci non, porttitor erat. Nulla feugiat fringilla velit at lobortis. Ut ornare eu orci vitae lobortis. </p> -->
+            </div>
+            <div id="comments">
+                <!-- <div class="comment-card">
+                    <div class="author-avatar">
+                        <img class="author-photo" src="https://sayville.artstudioworks.net/wp-content/uploads/2020/11/jack-antal-796914-unsplash-160x160.jpg">
+                    </div>
+                    <div class="comment-text">
+                        <div class="author">
+                            <div>
+                                <h2 class="author-title"> Kendal James</h2>
+                                <div class="meta-date">Nov 11</div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>I can never read all the books I want; I can never be all the people I want and live all the lives I want. I can never train myself in all the skills I want. And why do I want? I want to live and feel all the shades, tones
+                                and variations of mental and physical experience possible in my life. And I am horribly limited.</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- -----------------Footer-------------------------------- -->
+    <div id="footer" class="a-flex">
+        <h2 class="a-text">News</h2>
+    </div>
+    <script src="js/post.js"></script>
+</body>
+
+</html>
